@@ -1,0 +1,6 @@
+2018-01-31 11:05:05,094 INFO: Instruction sent: TEST FILE: D:\Data\multiTones\multiToneTestIQ_firstTonePow-50dBW.dat, 3550000000, 0 
+2018-01-31 11:07:27,480 INFO: LV Status: 0 
+2018-01-31 11:07:27,492 INFO: LV Status: {"BB_Gain": "1.153403e-06", "Test_File": "D:\\Data\\multiTones\\multiToneTestIQ_firstTonePow-50dBW.dat", "RF_Gain": "0", "RF_Center_Freq": "3550000000"} 
+2018-01-31 11:07:27,509 INFO: Instruction sent: TEST FILE: D:\Data\multiTones\multiToneTestIQ_firstTonePow-60dBW.dat, 3550000000, 0 
+2018-01-31 11:09:57,540 INFO: LV Status: 0 
+2018-01-31 11:09:57,546 INFO: LV Status: {"BB_Gain": "3.645643e-07", "Test_File": "D:\\Data\\multiTones\\multiToneTestIQ_firstTonePow-60dBW.dat", "RF_Gain": "0", "RF_Center_Freq": "3550000000"} 
