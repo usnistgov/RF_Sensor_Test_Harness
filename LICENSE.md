@@ -1,15 +1,9 @@
-# ESC Test Harness
-
-## Table of Contents
+# 3.5 GHz Waveform Generation for Testing and Development of ESC Detectors
+<!-- TOC -->
 - [1. Legal Disclaimers](#1-legal-disclaimers)
     - [1.1. Software Disclaimer](#11-software-disclaimer)
     - [1.2. Commercial Disclaimer](#12-commercial-disclaimer)
-- [2. Project Summary](#2-project-summary)
-    - [2.1. Current development](#21-current-development)
-- [3. Setup](#3-setup)
-- [4. Usage](#4-usage)
-- [5. Future Work](#5-future-work)
-
+<!-- /TOC -->
 
 # 1. Legal Disclaimers
 ## 1.1. Software Disclaimer
@@ -48,21 +42,3 @@
 
 ## 1.2. Commercial Disclaimer
  Certain commercial equipment, instruments, or materials are identified in this paper to foster understanding. Such identification does not imply recommendation or endorsement by the National Institute of Standards and Technology, nor does it imply that the materials or equipment identified are necessarily the best available for the purpose.
-
-# 2. Project Summary
-This is the test setup for an Environmental Sensing Capability (ESC) sensor.
-
-* LabVIEW 2016 (Player)
-## 2.1. Current development 
-* LabVIEW 2016 (Player)
-* Python (Server)
-* Matlab (Post processing)
-
-# 3. Setup
-  TBD
-  
-# 4. Usage
-  TBD
-  
-# 5. Future Work
-  TBD
