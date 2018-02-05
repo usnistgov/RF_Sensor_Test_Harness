@@ -52,7 +52,6 @@
 # 2. Project Summary
 This is the test setup for an Environmental Sensing Capability (ESC) sensor.
 
-* LabVIEW 2016 (Player)
 ## 2.1. Current development 
 * LabVIEW 2016 (Player)
 * Python (Server)
