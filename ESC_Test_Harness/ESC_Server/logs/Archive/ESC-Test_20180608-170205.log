@@ -1,0 +1,30 @@
+2018-06-08 17:03:57,151 INFO: Instruction sent: TEST FILE: D:\FOUO\newTest_June1_2017\61In-BandRadar.tdms, 3550000000, 15 
+2018-06-08 17:05:33,384 INFO: LV Status: 0 
+2018-06-08 17:05:33,385 INFO: LV Response: Test_File: D:\FOUO\newTest_June1_2017\61In-BandRadar.tdms, Start_T: 1528491837, End_T: 1528491933 
+
+ 
+2018-06-08 17:05:33,424 INFO: Instruction sent: TEST FILE: D:\FOUO\newTest_June1_2017\62TwoFadedLTESignalsWithDifferentPowers.tdms, 3550000000, 5 
+2018-06-08 17:07:04,072 INFO: LV Status: 0 
+2018-06-08 17:07:04,072 INFO: LV Response: Test_File: D:\FOUO\newTest_June1_2017\62TwoFadedLTESignalsWithDifferentPowers.tdms, Start_T: 1528491933, End_T: 1528492024 
+
+ 
+2018-06-08 17:07:04,101 INFO: Instruction sent: TEST FILE: D:\FOUO\newTest_June1_2017\63In-BandRadarwithFadedCo-ChannelLTE.tdms, 3550000000, 5 
+2018-06-08 17:08:34,763 INFO: LV Status: 0 
+2018-06-08 17:08:34,763 INFO: LV Response: Test_File: D:\FOUO\newTest_June1_2017\63In-BandRadarwithFadedCo-ChannelLTE.tdms, Start_T: 1528492024, End_T: 1528492114 
+
+ 
+2018-06-08 17:08:34,790 INFO: Instruction sent: TEST FILE: D:\FOUO\newTest_June1_2017\64In-BandRadarinbetweenTwoFadedLTE.tdms, 3550000000, 5 
+2018-06-08 17:10:05,420 INFO: LV Status: 0 
+2018-06-08 17:10:05,421 INFO: LV Response: Test_File: D:\FOUO\newTest_June1_2017\64In-BandRadarinbetweenTwoFadedLTE.tdms, Start_T: 1528492114, End_T: 1528492205 
+
+ 
+2018-06-08 17:10:05,443 INFO: Instruction sent: TEST FILE: D:\FOUO\newTest_June1_2017\65Adjacent-bandemissions.tdms, 3550000000, 5 
+2018-06-08 17:11:36,115 INFO: LV Status: 0 
+2018-06-08 17:11:36,115 INFO: LV Response: Test_File: D:\FOUO\newTest_June1_2017\65Adjacent-bandemissions.tdms, Start_T: 1528492205, End_T: 1528492296 
+
+ 
+2018-06-08 17:11:36,137 INFO: Instruction sent: TEST FILE: D:\FOUO\newTest_June1_2017\66TwoIn-BandRadarswithAdjacent-BandEmissions.tdms, 3550000000, 5 
+2018-06-08 17:13:06,742 INFO: LV Status: 0 
+2018-06-08 17:13:06,743 INFO: LV Response: Test_File: D:\FOUO\newTest_June1_2017\66TwoIn-BandRadarswithAdjacent-BandEmissions.tdms, Start_T: 1528492296, End_T: 1528492386 
+
+ 

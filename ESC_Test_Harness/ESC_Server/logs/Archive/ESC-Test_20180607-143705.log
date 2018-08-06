@@ -1,0 +1,30 @@
+2018-06-07 14:37:13,285 INFO: Instruction sent: TEST FILE: D:\FOUO\newTest_June1_2017\61In-BandRadar.tdms, 3550000000, 15 
+2018-06-07 14:37:25,834 INFO: LV Status: 0 
+2018-06-07 14:37:25,835 INFO: LV Response:  
+2018-06-07 14:37:25,880 INFO: Instruction sent: TEST FILE: D:\FOUO\newTest_June1_2017\62TwoFadedLTESignalsWithDifferentPowers.tdms, 3550000000, 5 
+2018-06-07 14:37:29,043 INFO: LV Status: 0 
+2018-06-07 14:37:29,046 INFO: LV Response:  
+2018-06-07 14:37:29,079 INFO: Instruction sent: TEST FILE: D:\FOUO\newTest_June1_2017\63In-BandRadarwithFadedCo-ChannelLTE.tdms, 3550000000, 5 
+2018-06-07 14:37:31,253 INFO: LV Status: 0 
+2018-06-07 14:37:31,255 INFO: LV Response:  
+2018-06-07 14:37:31,289 INFO: Instruction sent: TEST FILE: D:\FOUO\newTest_June1_2017\64In-BandRadarinbetweenTwoFadedLTE.tdms, 3550000000, 5 
+2018-06-07 14:37:33,092 INFO: LV Status: 0 
+2018-06-07 14:37:33,095 INFO: LV Response:  
+2018-06-07 14:37:33,121 INFO: Instruction sent: TEST FILE: D:\FOUO\newTest_June1_2017\65Adjacent-bandemissions.tdms, 3550000000, 5 
+2018-06-07 14:37:39,436 INFO: LV Status: 0 
+2018-06-07 14:37:39,437 INFO: LV Response:  
+2018-06-07 14:37:39,463 INFO: Instruction sent: TEST FILE: D:\FOUO\newTest_June1_2017\66TwoIn-BandRadarswithAdjacent-BandEmissions.tdms, 3550000000, 5 
+2018-06-07 14:37:41,114 INFO: LV Status: 0 
+2018-06-07 14:37:41,115 INFO: LV Response:  
+2018-06-07 14:37:50,816 INFO: Instruction sent: TEST FILE: D:\FOUO\newTest_June1_2017\61In-BandRadar.tdms, 3550000000, 15 
+2018-06-07 14:37:55,690 INFO: LV Status: 0 
+2018-06-07 14:37:55,690 INFO: LV Response:  
+2018-06-07 14:37:55,717 INFO: Instruction sent: TEST FILE: D:\FOUO\newTest_June1_2017\62TwoFadedLTESignalsWithDifferentPowers.tdms, 3550000000, 5 
+2018-06-07 14:38:09,345 INFO: LV Status: 0 
+2018-06-07 14:38:09,346 INFO: LV Response:  
+2018-06-07 14:38:18,240 INFO: Instruction sent: TEST FILE: D:\FOUO\newTest_June1_2017\63In-BandRadarwithFadedCo-ChannelLTE.tdms, 3550000000, 5 
+2018-06-07 14:39:13,980 INFO: LV Status: 0 
+2018-06-07 14:39:13,980 INFO: LV Response:  
+2018-06-07 14:39:13,997 INFO: Instruction sent: TEST FILE: D:\FOUO\newTest_June1_2017\64In-BandRadarinbetweenTwoFadedLTE.tdms, 3550000000, 5 
+2018-06-07 14:39:52,348 INFO: Instruction sent: TEST FILE: D:\FOUO\newTest_June1_2017\65Adjacent-bandemissions.tdms, 3550000000, 5 
+2018-06-07 14:40:39,411 INFO: Instruction sent: TEST FILE: D:\FOUO\newTest_June1_2017\66TwoIn-BandRadarswithAdjacent-BandEmissions.tdms, 3550000000, 5 
