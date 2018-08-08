@@ -89,11 +89,9 @@ Technical Data Management System (TDMS).
 
   
 # 4. Usage
-  Spectrum analyzer settings are controlled with Standard Commands for Programmable Instruments (SCPI) commands.  To change
-use the preset commands that are saved in the test harness project, use windows explorer to search for 
-"SpectrumAnn SCPI commands.vi" and customize the sequence to your preference.
+  The spectrum analyzer settings used in the Test Harness are controlled with Standard Commands for Programmable Instruments (SCPI) commands.  To alter these setting, use the windows explorer to search for the vi "SpectrumAnn SCPI commands.vi" and customize this sequence to your preference.
 
-If you prefer manual configurations,  the "local" key on the spectrum analyzer will end the remote settings.
+If you prefer to manually configure your spectrum analyzer select the "local" key on the instruments front pannel.  This will end the remote settings session.
 
 
   
