@@ -70,11 +70,11 @@ A spectrum analyzer is required to view your waveform data.
  After a successful download and unzip of the package;
   Navigate to the Folder ESC_TestHarness_master\ESC_Test_Harness_master\ESC_Test_Harness
     
-* ESC_Server --> The Python Server
-   to launch the Python server, double click "ESC_TestHarness_WS.py".  note a command window will appear in the background
+* ESC_Server (Python Server)
+   To launch the Python server, double click "ESC_TestHarness_WS.py".  note a command window will appear in the background
 with status of the HTTP requests.
 
-* ESC_Waveform_Player --> The LabVIEW web server
+* ESC_Waveform_Player (LabVIEW web server) 
    To launch the LabVIEW project, double click "ESC_Waveform_Player.lvproj".  Locate and right click on "v1". The Debug  
 window will appear.  Select "OK".
 
