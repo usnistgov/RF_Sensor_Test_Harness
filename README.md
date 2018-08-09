@@ -85,7 +85,7 @@ The username and password are "admin" and "default".
 Enter your file selection in the "Input File Location" text box.  eg: "D:\MyFileLocation\SomeWaveforms\waveform.dat". Select the "Input_From_File" button.  
 
 notes:  
- 1)This test harness accepts binary (.dat) files.  The files will be converted to national instruments file standard 
+ 1) This test harness accepts binary (.dat) files.  The files will be converted to national instruments file standard 
 Technical Data Management System (TDMS).
 
  2) If the file has been converted to TDMS the Test Harness can use the .TDMS file to play the file again.
