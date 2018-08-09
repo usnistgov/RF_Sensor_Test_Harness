@@ -70,11 +70,11 @@ A spectrum analyzer is required to view your waveform data.
  After a successful download and unzip of the package;
   navigate to the folder ESC_TestHarness_master\ESC_Test_Harness_master\ESC_Test_Harness
     
-* ESC_Server (Python Server)
+* ESC_Server (Python Server) ->
    To launch the Python server, double click "ESC_TestHarness_WS.py".  note: a command window will appear in the background
 with status of the HTTP requests.
 
-* ESC_Waveform_Player (LabVIEW web server) 
+* ESC_Waveform_Player (LabVIEW web server) ->
    To launch the LabVIEW project, double click "ESC_Waveform_Player.lvproj".  Locate and right click on "v1". The Debug  
 window will appear.  Select "OK".
 
@@ -91,7 +91,7 @@ Technical Data Management System (TDMS).
 # 4. Usage
   The spectrum analyzer settings used in the Test Harness are controlled with Standard Commands for Programmable Instruments (SCPI) commands.  To alter these setting, use the windows explorer to search for the vi "SpectrumAnn SCPI commands.vi" and customize this sequence to your preference.
 
-If you prefer to manually configure your spectrum analyzer select the "local" key on the instruments front pannel.  This will end the remote settings session.
+If you prefer to manually configure your spectrum analyzer select the "local" key on the instruments front pannel.  This will end the remote control session.
 
 
   
