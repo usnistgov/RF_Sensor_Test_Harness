@@ -82,7 +82,7 @@ window will appear.  Select "OK".
 appears.
 
 The username and password are "admin" and "default".
-Enter your file selection in the "Input File Location" text box.  eg: "D:\MyFileLocation\SomeWaveforms\waveform.dat". Select the "Input_From_File" button.  
+Enter your file selection in the "Input File Location" text box.  eg: "D:\MyFileLocation\SomeWaveforms\waveform.dat".  Select the "Input_From_File" button.  
 
 notes:  
  1) This test harness accepts binary (.dat) files.  The files will be converted to national instruments file standard 
