@@ -68,10 +68,10 @@ There are three parts to the Test Harness.
 A spectrum analyzer is required to view your waveform data.  
 
  After a successful download and unzip of the package;
-  Navigate to the Folder ESC_TestHarness_master\ESC_Test_Harness_master\ESC_Test_Harness
+  navigate to the folder ESC_TestHarness_master\ESC_Test_Harness_master\ESC_Test_Harness
     
 * ESC_Server (Python Server)
-   To launch the Python server, double click "ESC_TestHarness_WS.py".  note a command window will appear in the background
+   To launch the Python server, double click "ESC_TestHarness_WS.py".  note: a command window will appear in the background
 with status of the HTTP requests.
 
 * ESC_Waveform_Player (LabVIEW web server) 
@@ -84,7 +84,7 @@ appears.
 The username and password are "admin" and "default".
 Enter your file selection in the "Input File Location" text box.  Select the "Input_From_File" button.  
 
-note:  this test harness accepts binary (.dat) files.  The files will be converted to national instruments file standard 
+note:  This test harness accepts binary (.dat) files.  The files will be converted to national instruments file standard 
 Technical Data Management System (TDMS).
 
   
