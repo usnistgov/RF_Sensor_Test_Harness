@@ -1,0 +1,107 @@
+<!doctype html>
+<title>ESC Test Harness</title>
+<link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
+<div class=page>
+  <h1>ESC Test Harness</h1>
+  <div class=metanav>
+  {% if not session.logged_in %}
+    <a href="{{ url_for('login') }}">log in</a>
+  {% else %}
+    <a href="{{ url_for('logout') }}">log out</a>
+  {% endif %}
+  </div>
+  {% for message in get_flashed_messages() %}
+    <div class=flash>{{ message }}</div>
+  {% endfor %}
+  {% block body %}{% endblock %}
+</div>
+
+{% extends "layout.html" %}
+{% block body %}
+  <h2>Login</h2>
+  {% if error %}<p class=error><strong>Error:</strong> {{ error }}{% endif %}
+  <form action="{{ url_for('login') }}" method=post>
+    <dl>
+      <dt>Username:
+      <dd><input type=text name=username>
+      <dt>Password:
+      <dd><input type=password name=password>
+      <dd><input type=submit value=Login>
+    </dl>
+  </form>
+{% endblock %}
+
+{% extends "layout.html" %}
+{% block body %}
+  {% if session.logged_in %}
+   <dl>
+    <form action="{{ url_for('main') }}" method=post class=main>
+        <dt>Test Directory 
+        <dt><input type=text size=70 name=Test_Dir><br>
+				<br>
+        <dt>RF Gain
+        <dt><input type=text size=70 name=RF_Gain><br>
+				<br>
+				<dt>Baseband Gain
+        <dt><input type=text size=70 name=BB_Gain><br>
+				<br>
+				<!--<dt><input type="checkbox" name="Specific" value="Specific">Specific select an RF Center Freq-->
+ 				<dt><input type="radio" name="RF_Center_Freq_Type" value="Random"> Random RF Frequency<br>
+ 				<dt><input type="radio" name="RF_Center_Freq_Type" value="Specific"> Specific RF Frequncy<br>
+        <dt>RF Center Frequency (MHz)
+        <!--<dt><input type=text size=10 name=RF_Center_Freq>-->
+				<select name="RF_Center_Freq">
+ 						<option value="3550">3550</option>
+ 						<option value="3560">3560</option>
+ 						<option value="3570">3570</option>
+ 						<option value="3580">3580</option>
+						<option value="3590">3590</option>
+ 						<option value="3600">3600</option>
+ 						<option value="3610">3610</option>
+ 						<option value="3620">3620</option>
+						<option value="3630">3630</option>
+ 						<option value="3640">3640</option>
+ 						<option value="3650">3650</option>
+ 						<option value="3660">3660</option>
+	 					<option value="3670">3670</option>
+ 						<option value="3680">3680</option>
+ 						<option value="3690">3690</option>
+				</select><br>
+				<br>
+        <dt><input type=submit value="Initialize"><br>
+				<br>
+    </form>
+    <form action="Execute_Tests" method=post>
+				<br>
+				<dt><input type=submit value="Execute_Tests">
+		</form>
+    <form action="Input_From_File" method=post>
+				<br>
+        <dt>Input File Location
+        <dt><input type=text size=70 name=Input_File><br>
+				<br>
+				<dt><input type=submit value="Input_From_File">
+		</form>
+
+   </dl>
+  
+  {% endif %}
+	<!--  <ul class="Begin Transmit">
+	 <ul class=Read >
+	 <table border="1" style="width:300px">
+	   <tr>
+	     <th>Test Number</th>
+	     <th>Start Transmit</th> 
+	     <th>End Transmit</th>
+	   </tr>
+	   <tr>
+	     <th>1</th>
+	     <td> TDB </td>
+	     <td> TBD </td>
+	   </tr>
+	 </table>
+         </ul> -->
+<!--<a href="ESC_TestHarness_WS.log">Open Log File</a>-->
+<!--<dt><form class="button" style="width:60px;height:30px;" method=post>This is a button</br>-->
+<!--<dt><input type=submit value="Execute_Tests">-->
+{% endblock %}
