@@ -1,3 +1,0 @@
-D:\Data\multiToneTest31_25MHz.tdms	3550000000	1.0	1.0
-D:\Data\multiToneTestQI-TonesIn25M.tdms		3550000000	1.0	1.0
-D:\Data\multiToneTestQI_TonesIn20M_-40dB.tdms		3550000000	1.0	1.0
