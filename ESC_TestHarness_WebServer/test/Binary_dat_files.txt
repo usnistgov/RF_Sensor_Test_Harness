@@ -1,2 +1,0 @@
-D:\Data\multiTones\multiToneTestIQ_firstTonePow-50dBW.dat	3550000000	1.153403e-06	0
-D:\Data\multiTones\multiToneTestIQ_firstTonePow-60dBW.dat	3550000000	3.645643e-07	0
