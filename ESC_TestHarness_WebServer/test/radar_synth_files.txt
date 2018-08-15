@@ -1,3 +1,0 @@
-C:\ESC_Tester\Data\TestData\TDDConfig1QPSK90Sec1.dat	3560000000	1.0	1.0
-C:\ESC_Tester\Data\TestData\testRadarSynthMix1.dat	3560000000	1.0	1.0
-C:\ESC_Tester\Data\TestData\testRadarSynth1.dat	3560000000	1.0	1.0
