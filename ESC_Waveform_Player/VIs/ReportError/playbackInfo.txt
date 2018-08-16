@@ -1,0 +1,6 @@
+61In-BandRadar.dat                                   3550000000     1.55231294628997e-07
+62TwoFadedLTESignalsWithDifferentPowers.dat          3550000000     9.64320154291225e-08
+63In-BandRadarwithFadedCo-ChannelLTE.dat             3550000000     5.01504513540622e-07
+64In-BandRadarinbetweenTwoFadedLTE.dat               3550000000     5.27426160337553e-07
+65Adjacent-bandemissions.dat                         3550000000     4.27350427350427e-07
+66TwoIn-BandRadarswithAdjacent-BandEmissions.dat     3545000000     9.40733772342427e-07
