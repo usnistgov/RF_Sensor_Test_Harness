@@ -62,12 +62,12 @@ This is the test setup for an Environmental Sensing Capability (ESC) sensor.
 
 There are three parts to the Test Harness. 
 1) Python server 
-2) LabVIEW web server (Player)
+2) LabVIEW 2017 web server (Player)
 3) Firefox web browser
 
 A spectrum analyzer is required to view your waveform data.  
 
-After a successful download and unzip of the package to a computer hosting LabVIEW and PXI;
+After a successful download and unzip of the package to a computer hosting LabVIEW 2017 and PXI;
 navigate to the folder ESC_TestHarness_master
  
 To start the ESC Tester 
