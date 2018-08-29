@@ -67,12 +67,10 @@ There are three parts to the Test Harness.
 
 A spectrum analyzer is required to view your waveform data.  
 
-After a successful download and unzip of the package;
-navigate to the folder ESC_TestHarness_master\ESC_Test_Harness_master\ESC_Test_Harness
-    
-Copy the up-zipped file to a computer hosting LabVIEW and PXI. 
-
-Starting the ESC Tester Start Python Server, start LabVIEW Web server and run web browser (Fire fox)
+After a successful download and unzip of the package to a computer hosting LabVIEW and PXI;
+navigate to the folder ESC_TestHarness_master
+ 
+To start the ESC Tester 
 1) Locate and double click the “StartUp.bat” file located in the  “ESC_Test_Harness-master” folder
 
 2) Python window will appear
