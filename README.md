@@ -67,28 +67,23 @@ There are three parts to the Test Harness.
 
 A spectrum analyzer is required to view your waveform data.  
 
- After a successful download and unzip of the package;
-  navigate to the folder ESC_TestHarness_master\ESC_Test_Harness_master\ESC_Test_Harness
+After a successful download and unzip of the package;
+navigate to the folder ESC_TestHarness_master\ESC_Test_Harness_master\ESC_Test_Harness
     
-* ESC_Server (Python Server) ->
-   To launch the Python server, double click "ESC_TestHarness_WS.py".  note: a command window will appear in the background
-with status of the HTTP requests.
+Copy the up-zipped file to a computer hosting LabVIEW and PXI. 
 
-* ESC_Waveform_Player (LabVIEW web server) ->
-   To launch the LabVIEW project, double click "ESC_Waveform_Player.lvproj".  Locate and right click on "v1". The Debug  
-window will appear.  Select "OK".
+Starting the ESC Tester Start Python Server, start LabVIEW Web server and run web browser (Fire fox)
+1) Locate and double click the “StartUp.bat” file located in the  “ESC_Test_Harness-master” folder
 
-* Locate the Firefox web browser and enter "localhost:9001" in the URL box.  The web interface for the ESC_Test Harness  
-appears.
+2) Python window will appear
 
-The username and password are "admin" and "default".
-Enter your file selection in the "Input File Location" text box.  eg: "D:\MyFileLocation\SomeWaveforms\waveform.dat".  Select the "Input_From_File" button.  
+3) The ESC_Server will appear  
 
-notes:  
- 1) This test harness accepts binary (.dat) files.  The files will be converted to national instruments file standard 
-Technical Data Management System (TDMS).
+4) Start the ESC_Server by right clicking on the “v1”. Select “Start” to initiate the session.  You will see Debug Web service windows appears.  Click “OK”.  The ESC Test Harness interface will appear.  Press “log in”. The default user name and password are “admin” and “default”.  
 
- 2) If the file has been converted to TDMS the Test Harness can use the .TDMS file to play the file again.
+5) Locate the “waveforms.txt” file located in your “Test” folder. Enter the full path of the “waveform.txt” file into the “Input File Location” and press “Input_From_File” to play the waveforms.
+
+Note: the waveforms can be viewed on your spectrum analyzer.    See step 5 for configuring your spectrum analyzer.
   
 # 4. Usage
   The spectrum analyzer settings used in the Test Harness are controlled with Standard Commands for Programmable Instruments (SCPI) commands.  To alter these setting, use the windows explorer to search for the vi "SpectrumAnn SCPI commands.vi" and customize this sequence to your preference.
