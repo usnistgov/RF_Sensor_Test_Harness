@@ -61,8 +61,11 @@ This is the test setup for an Environmental Sensing Capability (ESC) sensor.
   Instructions for running the ESC_Test_Harness
 
 The Test Harness includes:
-* Python server 
-* LabVIEW 2017 web server (Player)
+*	National Instruments PXIe-1085 (chassis)
+*	National Instruments PXIe-8880 (controller)
+*	National Instruments PXIe-5646 (VST)
+*   Python server 
+*   LabVIEW 2017 web server (Player)
 
 After a successful download and unzip of the package to a computer hosting LabVIEW 2017 and PXI;
 navigate to the folder ESC_TestHarness_master
