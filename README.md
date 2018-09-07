@@ -67,8 +67,8 @@ The Test Harness includes:
 *   Python server 
 *   LabVIEW 2017 web server (Player)
 
-After a successful download and unzip of the package to a computer hosting LabVIEW 2017 and PXI;
-navigate to the folder ESC_TestHarness_master
+After successfully downloading and unzipping the package to a computer hosting LabVIEW 2017 and PXI,
+navigate to the folder ESC_TestHarness_master.
  
 To start the ESC Tester 
 1) Locate and double click the “StartUp.bat” file located in the  “ESC_Test_Harness-master” folder
@@ -77,9 +77,9 @@ To start the ESC Tester
 
 3) The ESC_Server will appear  
 
-4) Start the ESC_Server by right clicking on the “v1”. Select “Start” to initiate the session.  You will see Debug Web service windows appears.  Click “OK”.  The ESC Test Harness interface will appear.  Press “log in”. The default user name and password are “admin” and “default”.  
+4) Start the ESC_Server by right clicking on the “v1”. Select “Start” to initiate the session.  A Debug Web service window will appear.  Click “OK”.  The ESC Test Harness interface will appear.  Press “log in”. The default user name and password are “admin” and “default”.  
 
-5) Locate the “waveforms.txt” file located in your “Test” folder. Enter the full path of the “waveform.txt” file into the “Input File Location” and press “Input_From_File” to play the waveforms.
+5) Locate the “waveforms.txt” file located in your “Test” folder. Enter the full path of the “waveform.txt” file into the “Input File Location” field of the user interface and press “Input_From_File” to play the waveforms.
 
 Note: the waveforms can be viewed on your spectrum analyzer.    See step 5 for configuring your spectrum analyzer.
   
