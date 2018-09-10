@@ -81,7 +81,6 @@ To start the ESC Tester
 
 5) Locate the “waveforms.txt” file located in your “Test” folder. Enter the full path of the “waveform.txt” file into the “Input File Location” field of the user interface and press “Input_From_File” to play the waveforms.
 
-Note: the waveforms can be viewed on your spectrum analyzer.    See step 5 for configuring your spectrum analyzer.
   
 # 4. Usage
   The spectrum analyzer settings used in the Test Harness are controlled with Standard Commands for Programmable Instruments (SCPI) commands.  To alter these setting, use the windows explorer to search for the vi "SpectrumAnn SCPI commands.vi" and customize this sequence to your preference.
