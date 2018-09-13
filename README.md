@@ -94,14 +94,16 @@ Note: the waveforms can be viewed on your spectrum analyzer.    See optional ste
                                                  
              
 ## 3.3	Stopping the ESC Tester (Python Server, LabVIEW player)
-•	To stop the Python web server, select the running Python screen.   Select “Ctrl + C”
+•	To stop the Python web server, select the running Python screen. Select “Ctrl + C”
 •	To stop the LabVIEW player right click on “v1”. Select “Stop”
 
 ## 3.4	Customizing the waveform parameters (optional)
 •	The waveform.txt file included in the download uses the following convention:
 Path |waveform.dat, Center Frequency, Scale Factor, Waveform Gain  
 •	The center frequency, scale factor and waveform gain located in the “WaveformBatch.bat” file will need to be changed accordingly and saved as a .bat file.
+
 •	The updated batch file can create a new waveform.txt file by double clicking “WaveformBatch.bat”.
+
 •	Repeat step 2a to play the updated waveforms.
 
 
