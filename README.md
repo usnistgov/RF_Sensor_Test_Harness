@@ -70,34 +70,34 @@ The Test Harness includes:
 Download the ESC_Test_Harness-master
 Copy the compressed file to a computer (PXIe-8880) hosting LabVIEW. 
 
-3.1)	Starting the ESC Tester (Python Server, LabVIEW player and web browser)
-3.1a)	Locate and double click the “StartUp.bat” file located in the “ESC_Test_Harness-master” folder.
-•	The Python status window will appear. 
-•	The LabVIEW player will appear. 
-•	A web browser will be launched automatically.  
+## 3.1)	Starting the ESC Tester (Python Server, LabVIEW player and web browser)
+ 3.1a)	Locate and double click the “StartUp.bat” file located in the “ESC_Test_Harness-master” folder.
+*	The Python status window will appear. 
+*	The LabVIEW player will appear. 
+*	A web browser will be launched automatically.  
  
-3.1b)	Start the LabVIEW player by right clicking on the “v1”.  Select “Start” to initiate the session.  A Debug web service window will appear.   Click “OK”.  
-•	The ESC Test Harness user interface (web browser) is already launched and will appear.   
-•	Press “log in”.  The default user name and password are “admin” and “default”.
+ 3.1b)	Start the LabVIEW player by right clicking on the “v1”.  Select “Start” to initiate the session.  A Debug web service window will appear.   Click “OK”.  
+*	The ESC Test Harness user interface (web browser) is already launched and will appear.   
+*	Press “log in”.  The default user name and password are “admin” and “default”.
  
-3.2)	Playing the waveforms
-3.2a)	Locate the “waveforms.txt” file located in your “Test” folder.    
-•	Enter the full path of the “waveform.txt” file into the “Input File Location” field of the user interface and press “Input_From_File” to play the waveforms. 
+## 3.2)	Playing the waveforms
+ 3.2a)	Locate the “waveforms.txt” file located in your “Test” folder.    
+*	Enter the full path of the “waveform.txt” file into the “Input File Location” field of the user interface and press “Input_From_File” to play the waveforms. 
 
 The initial run of the ESC Test Harness will convert the included waveforms from binary (.dat) to .tdms format prior to playing the waveforms.  As a result, there will be a 60 second delay before the waveforms plays.  Once each of the waveforms are converted to .tdms, each waveform will play sequentially with no delay.  The new TDMS files will appear in the “Test” directory.   
 
 The status of the waveform conversions and waveform playing can be monitored on the GlobalVriables.vi Front Panel.
 
-3.2b)	Go to the LabVIEW project and expand the folder “99 – Others”.  Double click the “GlobalVariables.vi”.  The GlobalVariables.vi front panel will appear. 
+ 3.2b)	Go to the LabVIEW project and expand the folder “99 – Others”.  Double click the “GlobalVariables.vi”.  The GlobalVariables.vi front panel will appear. 
 
 Note: the waveforms can be viewed on your spectrum analyzer.    See optional step 5 for configuring your spectrum analyzer.
                                                  
              
-3.3)	Stopping the ESC Tester (Python Server, LabVIEW player)
+## 3.3)	Stopping the ESC Tester (Python Server, LabVIEW player)
 •	To stop the Python web server, select the running Python screen.   Select “Ctrl + C”
 •	To stop the LabVIEW player right click on “v1”. Select “Stop”
 
-3.4)	Customizing the waveform parameters (optional)
+## 3.4)	Customizing the waveform parameters (optional)
 •	The waveform.txt file included in the download uses the following convention:
 Path |waveform.dat, Center Frequency, Scale Factor, Waveform Gain  
 •	The center frequency, scale factor and waveform gain located in the “WaveformBatch.bat” file will need to be changed accordingly and saved as a .bat file.
@@ -105,7 +105,7 @@ Path |waveform.dat, Center Frequency, Scale Factor, Waveform Gain
 •	Repeat step 2a to play the updated waveforms.
 
 
-3.5)	Configuring your spectrum analyzer (optional)
+## 3.5)	Configuring your spectrum analyzer (optional)
  The spectrum analyzer settings are controlled with Standard Commands for Programmable Instruments (SCPI) commands.  The address for the VISA connection will need to be changed.  
 •	To change the VISA address, go to the LabVIEW Project Explorer, expand the Dependencies tab.  
 •	Locate and open the "SpectrumAnn SCPI commands.vi".  
