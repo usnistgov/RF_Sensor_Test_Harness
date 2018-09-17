@@ -67,7 +67,7 @@ The Test Harness includes:
 *   Python server 
 *   LabVIEW 2017 web server (Player)
 
-Download the RF Sensor Test Harness master
+Download the RF Sensor Test Harness master.  
 Copy the compressed file to a computer (PXIe-8880) hosting LabVIEW. 
 
 ## 3.1	Starting the RF Sensor Test Harness (Python Server, LabVIEW player and web browser)
