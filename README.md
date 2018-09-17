@@ -57,7 +57,7 @@ This is the test setup for an Environmental Sensing Capability (ESC) sensor.
 * Matlab (Post processing)
 
 # 3. Setup
-  Detailed instructions can be downloaded at [Instructions For Running RF_Sensor_Test_Harness](https://github.com/usnistgov/ESC_Test_Harness/blob/master/InstructionsForRunningRF_Sensor_Test_Harness.pdf).
+  Detailed instructions can be downloaded at [Instructions For Running the RF_Sensor_Test_Harness](https://github.com/usnistgov/ESC_Test_Harness/blob/master/InstructionsForRunningRF_Sensor_Test_Harness.pdf).
   Instructions for running the ESC_Test_Harness
 
 The Test Harness includes:
