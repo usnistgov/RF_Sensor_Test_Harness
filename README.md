@@ -1,4 +1,4 @@
-# ESC Test Harness
+# RF Sensor Test Harness
 
 ## Table of Contents
 - [1. Legal Disclaimers](#1-legal-disclaimers)
@@ -49,7 +49,7 @@
  Certain commercial equipment, instruments, or materials are identified in this paper to foster understanding. Such identification does not imply recommendation or endorsement by the National Institute of Standards and Technology, nor does it imply that the materials or equipment identified are necessarily the best available for the purpose.
 
 # 2. Project Summary
-This is the test setup for an Environmental Sensing Capability (ESC) sensor.
+This is the test setup for an RF Sensor Test Harness.
 
 ## 2.1. Current development 
 * LabVIEW 2017 (Player)
@@ -58,7 +58,7 @@ This is the test setup for an Environmental Sensing Capability (ESC) sensor.
 
 # 3. Setup
   Detailed instructions can be downloaded at [Instructions For Running the RF_Sensor_Test_Harness](https://github.com/usnistgov/ESC_Test_Harness/blob/master/InstructionsForRunningRF_Sensor_Test_Harness.pdf).
-  Instructions for running the ESC_Test_Harness
+  Instructions for running the RF Sensor Test Harness
 
 The Test Harness includes:
 *	National Instruments PXIe-1085 (chassis)
@@ -67,24 +67,24 @@ The Test Harness includes:
 *   Python server 
 *   LabVIEW 2017 web server (Player)
 
-Download the ESC_Test_Harness-master
+Download the RF Sensor Test Harness master
 Copy the compressed file to a computer (PXIe-8880) hosting LabVIEW. 
 
-## 3.1	Starting the ESC Tester (Python Server, LabVIEW player and web browser)
- 3.1a	Locate and double click the “StartUp.bat” file located in the “ESC_Test_Harness-master” folder.
+## 3.1	Starting the RF Sensor Test Harness (Python Server, LabVIEW player and web browser)
+ 3.1a	Locate and double click the “StartUp.bat” file located in the “RF Sensor Test Harness master” folder.
 *	The Python status window will appear. 
 *	The LabVIEW player will appear. 
 *	A web browser will be launched automatically.  
  
  3.1b	Start the LabVIEW player by right clicking on the “v1”.  Select “Start” to initiate the session.  A Debug web service window will appear.   Click “OK”.  
-*	The ESC Test Harness user interface (web browser) is already launched and will appear.   
+*	The RF Sensor Test Harness user interface (web browser) is already launched and will appear.   
 *	Press “log in”.  The default user name and password are “admin” and “default”.
  
 ## 3.2	Playing the waveforms
  3.2a	Locate the “waveforms.txt” file located in your “Test” folder.    
 *	Enter the full path of the “waveform.txt” file into the “Input File Location” field of the user interface and press “Input_From_File” to play the waveforms. 
 
-The initial run of the ESC Test Harness will convert the included waveforms from binary (.dat) to .tdms format prior to playing the waveforms.  As a result, there will be a 60 second delay before the waveforms plays.  Once each of the waveforms are converted to .tdms, each waveform will play sequentially with no delay.  The new TDMS files will appear in the “Test” directory.   
+The initial run of the RF Sensor Test Harness will convert the included waveforms from binary (.dat) to .tdms format prior to playing the waveforms.  As a result, there will be a 60 second delay before the waveforms plays.  Once each of the waveforms are converted to .tdms, each waveform will play sequentially with no delay.  The new TDMS files will appear in the “Test” directory.   
 
 The status of the waveform conversions and waveform playing can be monitored on the GlobalVriables.vi Front Panel.
 
@@ -93,7 +93,7 @@ The status of the waveform conversions and waveform playing can be monitored on 
 Note: the waveforms can be viewed on your spectrum analyzer.  See optional step 5 for configuring your spectrum analyzer.
                                                  
              
-## 3.3	Stopping the ESC Tester (Python Server, LabVIEW player)
+## 3.3	Stopping the RF Sensor Test Harness (Python Server, LabVIEW player)
 •	To stop the Python web server, select the running Python screen. Select “Ctrl + C”.  
 •	To stop the LabVIEW player right click on “v1”. Select “Stop”.
 
