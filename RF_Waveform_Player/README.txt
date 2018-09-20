@@ -38,36 +38,37 @@ Introduction
 This document is a step by step set of instructions for downloading and operating the RF Sensor Test Harness.  It assumes the signal generator is controlled by LabVIEW virtual instruments.  The RF Sensor Test Harness consists of a Python web server, LabVIEW server (LabVIEW player) and a web browser.  The player accepts the waveforms via HTTP; converts the binary waveform files to TDMS (a LabVIEW specific file format) and plays the waveforms. 
 
 Required Hardware
-•	National Instruments PXIe-1085 (chassis)
-•	National Instruments PXIe-8880 (controller)
-•	National Instruments PXIe-5646 (VST)
+â€¢	National Instruments PXIe-1085 (chassis)
+â€¢	National Instruments PXIe-8880 (controller)
+â€¢	National Instruments PXIe-5646 (VST)
 
 Required Software
-•	Windows 7 or higher
-•	LabVIEW 2017
+â€¢	Windows 7 or higher
+â€¢	LabVIEW 2017
 
+Note: Flask framework for Python is required.
 Download the RF Sensor Test Harness-master
 Copy the compressed file to a computer (PXIe-8880) hosting LabVIEW. 
 
 3.1)	Starting the RF Sensor Tester (Python Server, LabVIEW player and web browser)
-3.1a)	Locate and double click the “StartUp.bat” file located in the “RF Sensor Test Harness-master” folder.
-•	The Python status window will appear. 
-•	The LabVIEW player will appear. 
-•	A web browser will be launched automatically.  
+3.1a)	Locate and double click the â€œStartUp.batâ€ file located in the â€œRF Sensor Test Harness-masterâ€ folder.
+â€¢	The Python status window will appear. 
+â€¢	The LabVIEW player will appear. 
+â€¢	A web browser will be launched automatically.  
  
-3.1b)	Start the LabVIEW player by right clicking on the “v1”.  Select “Start” to initiate the session.  A Debug web service window will appear.   Click “OK”.  
-•	The RF Sensor Test Harness user interface (web browser) is already launched and will appear.   
-•	Press “log in”.  The default user name and password are “admin” and “default”.
+3.1b)	Start the LabVIEW player by right clicking on the â€œv1â€.  Select â€œStartâ€ to initiate the session.  A Debug web service window will appear.   Click â€œOKâ€.  
+â€¢	The RF Sensor Test Harness user interface (web browser) is already launched and will appear.   
+â€¢	Press â€œlog inâ€.  The default user name and password are â€œadminâ€ and â€œdefaultâ€.
  
 3.2)	Playing the waveforms
-3.2a)	Locate the “waveforms.txt” file located in your “Test” folder.    
-•	Enter the full path of the “waveform.txt” file into the “Input File Location” field of the user interface and press “Input_From_File” to play the waveforms. 
+3.2a)	Locate the â€œwaveforms.txtâ€ file located in your â€œTestâ€ folder.    
+â€¢	Enter the full path of the â€œwaveform.txtâ€ file into the â€œInput File Locationâ€ field of the user interface and press â€œInput_From_Fileâ€ to play the waveforms. 
 
-The initial run of the RF Sensor Test Harness will convert the included waveforms from binary (.dat) to .tdms format prior to playing the waveforms.  As a result, there will be a 60 second delay before the waveforms plays.  Once each of the waveforms are converted to .tdms, each waveform will play sequentially with no delay.  The new TDMS files will appear in the “Test” directory.   
+The initial run of the RF Sensor Test Harness will convert the included waveforms from binary (.dat) to .tdms format prior to playing the waveforms.  As a result, there will be a 60 second delay before the waveforms plays.  Once each of the waveforms are converted to .tdms, each waveform will play sequentially with no delay.  The new TDMS files will appear in the â€œTestâ€ directory.   
 
 The status of the waveform conversions and waveform playing can be monitored on the GlobalVriables.vi Front Panel.
 
-3.2b)	Go to the LabVIEW project and expand the folder “99 – Others”.  Double click the “GlobalVariables.vi”.  The GlobalVariables.vi front panel will appear. 
+3.2b)	Go to the LabVIEW project and expand the folder â€œ99 â€“ Othersâ€.  Double click the â€œGlobalVariables.viâ€.  The GlobalVariables.vi front panel will appear. 
 
  
 
@@ -76,23 +77,23 @@ Note: the waveforms can be viewed on your spectrum analyzer.    See optional ste
                                                                     
               
 3.3)	Stopping the RF Sensor Tester (Python Server, LabVIEW player)
-•	To stop the Python web server, select the running Python screen.   Select “Ctrl + C”
-•	To stop the LabVIEW player right click on “v1”. Select “Stop”
+â€¢	To stop the Python web server, select the running Python screen.   Select â€œCtrl + Câ€
+â€¢	To stop the LabVIEW player right click on â€œv1â€. Select â€œStopâ€
 
 3.4)	Customizing the waveform parameters (optional)
-•	The waveform.txt file included in the download uses the following convention:
+â€¢	The waveform.txt file included in the download uses the following convention:
 Path |waveform.dat, Center Frequency, Scale Factor, Waveform Gain  
-•	The center frequency, scale factor and waveform gain located in the “WaveformBatch.bat” file will need to be changed accordingly and saved as a .bat file.
-•	The updated batch file can create a new waveform.txt file by double clicking “WaveformBatch.bat”.
-•	Repeat step 2a to play the updated waveforms.
+â€¢	The center frequency, scale factor and waveform gain located in the â€œWaveformBatch.batâ€ file will need to be changed accordingly and saved as a .bat file.
+â€¢	The updated batch file can create a new waveform.txt file by double clicking â€œWaveformBatch.batâ€.
+â€¢	Repeat step 2a to play the updated waveforms.
 
 
 3.5)	Configuring your spectrum analyzer (optional)
  The spectrum analyzer settings are controlled with Standard Commands for Programmable Instruments (SCPI) commands.  The address for the VISA connection will need to be changed.  
-•	To change the VISA address, go to the LabVIEW Project Explorer, expand the Dependencies tab.  
-•	Locate and open the "SpectrumAnn SCPI commands.vi".  
-•	Enter the VISA address for your instrument.  
-•	Expand the menu in the case structure to reveal the spectrum analyzer settings for the different waveforms. 
+â€¢	To change the VISA address, go to the LabVIEW Project Explorer, expand the Dependencies tab.  
+â€¢	Locate and open the "SpectrumAnn SCPI commands.vi".  
+â€¢	Enter the VISA address for your instrument.  
+â€¢	Expand the menu in the case structure to reveal the spectrum analyzer settings for the different waveforms. 
 
 If manual configurations are preferred, the "local" key on the spectrum analyzer will end the remote session.
 4. Usage
