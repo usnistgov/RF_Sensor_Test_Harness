@@ -66,7 +66,7 @@ The Test Harness includes:
 *	National Instruments PXIe-5646 (VST)
 *   Python server 
 *   LabVIEW 2017 web server (Player)
-
+Note:  Flask framework for Python is required.
 Download the RF Sensor Test Harness master.  
 Copy the compressed file to a computer (PXIe-8880) hosting LabVIEW. 
 
