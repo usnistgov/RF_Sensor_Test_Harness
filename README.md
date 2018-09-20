@@ -60,7 +60,7 @@ This is the test setup for an RF Sensor Test Harness.
   Detailed instructions can be downloaded at [Instructions For Running the RF_Sensor_Test_Harness](https://github.com/usnistgov/ESC_Test_Harness/blob/master/InstructionsForRunningRF_Sensor_Test_Harness.pdf).  
   Instructions for running the RF Sensor Test Harness
 
-The Test Harness includes:
+The RF Sensor Test Harness includes:
 *	National Instruments PXIe-1085 (chassis)
 *	National Instruments PXIe-8880 (controller)
 *	National Instruments PXIe-5646 (VST)
